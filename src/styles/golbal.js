@@ -1,16 +1,16 @@
 import { StyleSheet } from "react-native";
-import { Colors } from "../constans/colors";
+import { colorsp } from "../constans/colorsp";
 
     export const globalStyles = StyleSheet.create({
         screenContainer: {
             flex: 1,
-            backgroundColor: Colors.ligth,
+            backgroundColor: colorsp.ligth,
             alignItems: "center",
             justifyContent: "center",
         },
         title: {
             fontSize: 32,
             fontWeight: 'bold',
-            color: Colors.secondary,
+            color: colorsp.secondary,
         }
     });
