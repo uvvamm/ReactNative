@@ -12,5 +12,10 @@ import { colorsp } from "../constans/colorsp";
             fontSize: 32,
             fontWeight: 'bold',
             color: colorsp.secondary,
+        },
+        simpleContairner: {
+            flex: 1,
+            backgroundColor: colorsp.ligth,
+            
         }
     });
